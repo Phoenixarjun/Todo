@@ -88,7 +88,7 @@ const TodoContainer = () => {
 
   return (
     <div className="flex flex-col items-center justify-center gap-3 text-center">
-      <h1 className="text-3xl text-white">TASKMASKER</h1>
+      <h1 className="text-3xl text-white">TASKMASTER</h1>
       <h2 className="text-lg text-white">{getMessage()}</h2>
       <AddTodo addTodo={addTodo} />
       {todos.map((todo) =>
