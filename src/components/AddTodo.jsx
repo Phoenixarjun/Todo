@@ -19,7 +19,7 @@ const AddTodo = ({ addTodo }) => {
           value={value}
           placeholder="Add Tasks"
           onChange={(e) => setValue(e.target.value)}
-          className="rounded-xl border border-2 border-indigo-500 rounded-r-none p-2 py-3 mb-4 w-96 bg-primary text-white outline-none"
+          className="rounded-xl border border-2 border-indigo-500 rounded-r-none p-2 py-3 mb-4 w-[40vw] bg-primary text-white outline-none"
         />
         <button
         onClick={handleSubmit}
